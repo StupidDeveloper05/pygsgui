@@ -1,0 +1,273 @@
+{
+  "Button" : {
+    "color": {
+      "normal" : "#4C5052",
+      "hover" : "#63686B",
+      "pressed" : "#365880",
+      "disable" : "#515151"
+    },
+    "text" : {
+      "color" : {
+        "normal" : "#B2B4B7",
+        "hover" : "#B2B4B7",
+        "pressed" : "#B2B4B7",
+        "disable" : "#808080"
+      },
+      "font" : {
+        "is_sys" : true,
+        "name" : "malgungothic"
+      },
+      "bold" : false,
+      "italic" : false,
+      "underline" : false,
+      "antialias" : true
+    },
+    "radius" : 4,
+    "padding_lr" : 3,
+    "padding_tb" : 3,
+    "border" :
+    {
+      "width" : 1,
+      "color" : {
+        "normal" : "#B2B4B7",
+        "hover" : "#B2B4B7",
+        "pressed" : "#B2B4B7",
+        "disable" : "#808080"
+      }
+    }
+  },
+  "Label" : {
+    "text" : {
+      "color" : {
+        "normal" : "#B2B4B7",
+        "hover" : "#B2B4B7",
+        "disable" : "#808080"
+      },
+      "font" : {
+        "is_sys" : true,
+        "name" : "malgungothic"
+      },
+      "bold" : false,
+      "italic" : false,
+      "underline" : false,
+      "antialias" : true
+    }
+  },
+  "CheckBox" : {
+    "color": {
+      "checked" : {
+        "normal" : "#365880",
+        "hover" : "#63686B",
+        "pressed" : "#4C5052",
+        "disable" : "#21344a"
+      },
+      "unchecked" : {
+        "normal" : "#4C5052",
+        "hover" : "#63686B",
+        "pressed" : "#365880",
+        "disable" : "#515151"
+      }
+    },
+    "check_shape" : {
+      "normal" : "#c9c9c9",
+      "hover" : "#9c9c9c",
+      "pressed" : "#727273",
+      "disable" : "#808080"
+    },
+    "text" : {
+      "color" : {
+        "normal" : "#B2B4B7",
+        "hover" : "#B2B4B7",
+        "pressed" : "#B2B4B7",
+        "disable" : "#808080"
+      },
+      "font" : {
+        "is_sys" : true,
+        "name" : "malgungothic"
+      },
+      "bold" : false,
+      "italic" : false,
+      "underline" : false,
+      "antialias" : true
+    },
+    "radius" : 4,
+    "padding" : 5,
+    "border" :
+    {
+      "width" : 1,
+      "color" : {
+        "checked" : {
+          "normal" : "#B2B4B7",
+          "hover" : "#B2B4B7",
+          "pressed" : "#B2B4B7",
+          "disable" : "#808080"
+          },
+        "unchecked" : {
+          "normal" : "#B2B4B7",
+          "hover" : "#B2B4B7",
+          "pressed" : "#B2B4B7",
+          "disable" : "#808080"
+          }
+      }
+    }
+  },
+  "Radio" : {
+    "color": {
+      "checked" : {
+        "normal" : "#365880",
+        "hover" : "#63686B",
+        "pressed" : "#4C5052",
+        "disable" : "#21344a"
+      },
+      "unchecked" : {
+        "normal" : "#4C5052",
+        "hover" : "#63686B",
+        "pressed" : "#365880",
+        "disable" : "#515151"
+      }
+    },
+    "check_shape" : {
+      "normal" : "#c9c9c9",
+      "hover" : "#9c9c9c",
+      "pressed" : "#727273",
+      "disable" : "#808080"
+    },
+    "text" : {
+      "color" : {
+        "normal" : "#B2B4B7",
+        "hover" : "#B2B4B7",
+        "pressed" : "#B2B4B7",
+        "disable" : "#808080"
+      },
+      "font" : {
+        "is_sys" : true,
+        "name" : "malgungothic"
+      },
+      "bold" : false,
+      "italic" : false,
+      "underline" : false,
+      "antialias" : true
+    },
+    "padding" : 5,
+    "border" :
+    {
+      "width" : 1,
+      "color" : {
+        "checked" : {
+          "normal" : "#B2B4B7",
+          "hover" : "#B2B4B7",
+          "pressed" : "#B2B4B7",
+          "disable" : "#808080"
+          },
+        "unchecked" : {
+          "normal" : "#B2B4B7",
+          "hover" : "#B2B4B7",
+          "pressed" : "#B2B4B7",
+          "disable" : "#808080"
+          }
+      }
+    }
+  },
+  "Window" : {
+    "background" : {
+      "normal" : "#252525",
+      "disable" : "#101010",
+      "transparent" : "FF",
+      "blur" :
+      {
+        "active" : false,
+        "resolution" : 90
+      }
+    },
+    "title_bar" : {
+      "normal" : "#707070",
+      "disable" : "#262626",
+      "height" : 20,
+      "radius" : 4
+    },
+    "radius" : 10,
+    "border" :
+    {
+      "width" : 1,
+      "color" : {
+        "normal" : "#A0A0A0",
+        "disable" : "#5c5c5c"
+      }
+    }
+  },
+  "Window.close_button" : {
+    "color": {
+      "normal" : "#707070",
+      "hover" : "#4C5052",
+      "pressed" : "#360000",
+      "disable" : "#262626"
+    },
+    "text" : {
+      "color" : {
+        "normal" : "#B2B4B7",
+        "hover" : "#B2B4B7",
+        "pressed" : "#B2B4B7",
+        "disable" : "#808080"
+      },
+      "font" : {
+        "is_sys" : true,
+        "name" : "malgungothic"
+      },
+      "bold" : false,
+      "italic" : false,
+      "underline" : false,
+      "antialias" : true
+    },
+    "radius" : 0,
+    "padding_lr" : 3,
+    "padding_tb" : 3
+  },
+  "Window.caption" : {
+    "text" : {
+      "color" : {
+        "normal" : "#B2B4B7",
+        "hover" : "#B2B4B7",
+        "disable" : "#808080"
+      },
+      "font" : {
+        "is_sys" : true,
+        "name" : "malgungothic"
+      },
+      "bold" : false,
+      "italic" : false,
+      "underline" : false,
+      "antialias" : true
+    }
+  },
+  "Menu" : {
+    "color" : {
+      "hover" : "#828282",
+      "pressed" : "#616161"
+    },
+    "radius" : 3
+  },
+  "Tool_Bar" : {
+    "padding-tb" : 1,
+    "padding-lr" : 5,
+    "radius" : 3,
+    "text" : {
+      "color" : {
+        "normal" : "#B2B4B7",
+        "disable" : "#808080"
+      },
+       "font" : {
+        "is_sys" : true,
+        "name" : "Arial"
+      },
+      "bold" : false,
+      "italic" : false,
+      "underline" : false,
+      "antialias" : true
+    },
+    "border" :
+    {
+      "width" : 1,
+      "color" : "#8f8f8f"
+    }
+  }
+}
