@@ -1,2 +1,2 @@
 # pygsgui
-this is my first gui package
+This is a package that helps you build a GUI very easily when you want to make a game using pygame.
