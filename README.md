@@ -41,6 +41,10 @@ _This is a package that helps you build a GUI very easily when you want to make 
   Now, create a UI manager.   
   This is the class that manages all UI. You only need to create it once.
   ```python
+  ui = pygsgui.UIManager()
+  ```
+  Paste the code in the commented line.
+  ```python
   import pygame
   import pygsgui
   from pygsgui.elements import *
@@ -65,6 +69,10 @@ _This is a package that helps you build a GUI very easily when you want to make 
   ```
 * ### Step 4
   Next, let's create a button.
+  ```python
+  btn = Button(350, 375, 100, 50, ui, text="Button", text_size=20)
+  ```
+  Paste the code in the commented line.
   ```python
   import pygame
   import pygsgui
@@ -92,6 +100,13 @@ _This is a package that helps you build a GUI very easily when you want to make 
   ```
 * ### Step 5
   Finally, update the UI manager and draw the UI.
+  ```python
+  # update UI
+  ui.update()
+  # draw UI
+  ui.render()
+  ```
+  Paste the code into each commented line.
   ```python
   import pygame
   import pygsgui
