@@ -124,3 +124,7 @@ _This is a package that helps you build a GUI very easily when you want to make 
   ```
 * ### Result
 ![result image](https://github.com/StupidDeveloper05/pygsgui/blob/main/images/tutorial.png)
+
+
+---
+### [api document](https://github.com/StupidDeveloper05/pygsgui/wiki)
