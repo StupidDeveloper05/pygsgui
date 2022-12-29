@@ -123,4 +123,4 @@ _This is a package that helps you build a GUI very easily when you want to make 
     clock.tick(1000)
   ```
 * ### Result
-![result image](images\tutorial.png)
+![result image](https://github.com/StupidDeveloper05/pygsgui/tree/main/images)
