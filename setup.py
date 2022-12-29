@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pygsgui",
-    version="0.0.2",
+    version="1.0.0",
     author="StupidDeveloper05",
     author_email="StupidDeveloper05@gmail.com",
     description="This my first Python Game Super Graphic User Interface!!!",
@@ -19,5 +19,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=[
+        'pillow',
+        'overrides',
+        'keyboard'
+      ],
     python_requires='>=3.6',
 )

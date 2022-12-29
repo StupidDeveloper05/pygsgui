@@ -19,12 +19,10 @@ class UIManager:
         self.__ui_objects = {}
         self.__ids = []
         self.__theme = {}
-        pkgPath = os.path.split(os.path.abspath(__file__))[0].split("\\")
-        pkgPath.pop(-1)
-        themeLocation = ""
-        for p in pkgPath:
-            themeLocation += p + "\\"
-        self.set_theme(themeLocation + "basicTheme.json")
+        pkgPath = os.path.split(os.path.abspath(__file__))[0]
+        pkgPath = os.path.abspath(os.path.join(pkgPath, os.path.pardir))
+        themeLocation = os.path.join(pkgPath, "basicTheme.json")
+        self.set_theme(themeLocation)
 
         self.set_event = False
         self.final_update = False

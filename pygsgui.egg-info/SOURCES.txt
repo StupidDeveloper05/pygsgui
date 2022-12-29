@@ -6,6 +6,7 @@ pygsgui/basicTheme.json
 pygsgui.egg-info/PKG-INFO
 pygsgui.egg-info/SOURCES.txt
 pygsgui.egg-info/dependency_links.txt
+pygsgui.egg-info/requires.txt
 pygsgui.egg-info/top_level.txt
 pygsgui/core/Event.py
 pygsgui/core/FriendMethod.py

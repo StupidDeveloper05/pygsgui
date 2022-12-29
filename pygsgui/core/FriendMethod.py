@@ -1,6 +1,3 @@
-import inspect
-
-
 class FriendMethod:
     def __init__(self, *friend_modules):
         self.friends_modules = friend_modules

@@ -1,7 +1,6 @@
 import pygame
 from abc import *
 
-
 class ISGUIBasicObject(metaclass=ABCMeta):
     def __init__(self, x: int, y: int, width: int, height: int):
         self.x = x
