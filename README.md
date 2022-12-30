@@ -41,7 +41,7 @@ _This is a package that helps you build a GUI very easily when you want to make 
   Now, create a UI manager.   
   This is the class that manages all UI. You only need to create it once.
   ```python
-  ui = pygsgui.UIManager()
+  ui = pygsgui.UIManager(sc)
   ```
   Paste the code in the commented line.
   ```python
